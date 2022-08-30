@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(0.9);
 }
 
-#fh5co-main-nav {
+#fh5co-main-nav { 
   position: absolute;
   top: 0;
   bottom: 0;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transform: scale(0);
   transform: scale(0);
   overflow-y: scroll;
-}
+} 
 #fh5co-main-nav .fh5co-nav-toggle {
   position: absolute;
   top: 30px;
@@ -794,19 +794,55 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   width: 100%;
   float: left;
   margin-bottom: 30px;
-  margin-top: -80px;
+  margin-top: -80px;  
+}
+/* .opacity-img {
+  background-image: url(images/gid_porch.jpg);
+  margin: 200px;
+  border-radius: 24px;
+  position: relative;
+} */
+
+/* .opacity {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 24px;
+  opacity: 0.4;
+  z-index: -1;
+} */
+
+/* .container {
+  padding: 1em;
+  background-color: rgba(212, 121, 2, 0.4);
+  border-radius: 24px;
+  box-shadow: 4px 4px 8px rgba(28, 29, 28, 0.9);
+  z-index: 1;
+} */
+
+.personPhoto {
+  border-radius: 50%;
+  display: table;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;  
 }
 .services .icon span {
   display: table;
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
-  background: #eee;
+  border: 2px solid #eee;
+  background: rgb(228, 95, 95);
+  /* background: #eee; */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;  
 }
 .services .icon span i {
   width: 100px;
