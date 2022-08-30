@@ -24,9 +24,13 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mobile:before {
+/* .icon-mobile:before {
     content: "\e000";
-}
+} */
+
+/* .icon-mobile:before {
+    background-image: url(/images/favicon.ico);
+} */
 .icon-laptop:before {
     content: "\e001";
 }
