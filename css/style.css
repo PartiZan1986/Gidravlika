@@ -99,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-  background:#FF8C00;  
+  background:#FF8C00; 
+  background-image: url(https://github.com/PartiZan1986/Gidravlika/blob/main/images/logos.jpg);
 }
 .menu-show #fh5co-page {
   -webkit-transform: scale(0.9);
