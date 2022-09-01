@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-  background: #FF8C00;
+  background:#FF8C00;  
 }
 .menu-show #fh5co-page {
   -webkit-transform: scale(0.9);
@@ -441,13 +441,13 @@ header .fh5co-navbar-brand .fh5co-logo {
 }
 
 header .fh5co-navbar-brand .fh5co-logo1 {
-  font-size: 70px;
-  font-weight: 900;
-  text-transform: none;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  /* text-transform: none; */
   color: #000;
-  letter-spacing: 4px;
-  /* border: 2px solid #000; */
-  padding: 5px 20px;
+  /* letter-spacing: 4px; */
+  /* padding: 5px 20px; */
 }
 
 header .fh5co-navbar-brand .fh5co-logo:hover {
